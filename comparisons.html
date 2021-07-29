@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Comparision Visualization</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="index.html"><span class="latitude">Latitude</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+			  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+			  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            </div>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="comparisons.html">Comparisons</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="data.html">Data</a>
+		  </li>
+		</ul>
+	</div>
+	</div>
+</nav>
+
+<!--CONTENT-->
+<div class="container">
+		<div class="row">
+		  <div>
+			<div class="box">
+			  <h3 class="text-secondary" style="padding: 10px">Comparison: Latitude vs. X</h3>
+			  <hr class="light">
+			  <h6 class="text-secondary" style="padding: 10px">Click any plot to get an in depth analysis.</h6>
+			  <div class="container" style="padding-bottom: 40px;">
+				<div class="row">
+				  <div class="col-lg-6" style="padding: 30px;">
+					<div class="text-secondary" style="text-align: center">vs. Max Temperature</div>
+					<a href="max_temperature.html">
+					  <img class="img-fluid" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
+					</a>
+				  </div>
+				  <div class="col-lg-6" style="padding: 30px;">
+					<div class="text-secondary" style="text-align: center">vs. Humidity</div>
+					<a href="humidity.html">
+					  <img class="img-fluid" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+					</a>
+				  </div>
+				</div>
+	
+				<div class="row">
+				  <div class="col-lg-6" style="padding: 30px;">
+					<div class="text-secondary" style="text-align: center">vs. Cloudiness</div>
+					<a href="cloudiness.html">
+					  <img class="img-fluid" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
+					</a>
+	
+				  </div>
+				  <div class="col-lg-6" style="padding: 30px;">
+					<div class="text-secondary" style="text-align: center">vs. Wind Speed</div>
+					<a href="wind_speed.html">
+					  <img class="img-fluid" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
+					</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+</body>
+</html>
+
+
+  

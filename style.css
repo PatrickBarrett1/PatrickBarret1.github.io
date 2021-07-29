@@ -1,0 +1,159 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  color: #222;
+  background-color: #EDEDED; 
+}
+navbar {
+  padding: .1rem;
+}
+.navbar-nav li {
+  padding-right: 40px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.latitude {
+    color: white;
+    font-size: 30px;
+    background-color: #0BADA6;
+    padding: 10px
+  }
+
+  .box {
+    margin-top: 40px; 
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px 10px 10px; 
+    color:black;
+    background-color: white; 
+   }
+  
+h1{
+    padding: 10px;
+    font-size: 30px;
+  }
+
+p{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px; 
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .left_shown{
+    width:50% !important;
+    height:40% !important;
+}
+
+table{
+    border-top: none; 
+}
+
+
+/*--MEDIA_QUERIES--*/
+@media (max-width: 992px) {
+
+.latitude {
+    color: white;
+    font-size: 30px;
+    background-color: #0BADA6;
+    padding: 10px
+  }
+ 
+  }
+  @media (max-width: 768px) {
+
+.dropdown-item{
+    font-size: 15px;
+}
+
+.latitude {
+    color: white;
+    font-size: 25px;
+    background-color: #0BADA6;
+    padding: 8px
+  }
+
+  h1{
+    padding: 8px;
+    font-size: 25px;
+  }
+  h2{
+    padding: 6px;
+    font-size: 16px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  h6{
+    font-size: 10px;
+  }
+
+  p{
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 14px; 
+}
+
+.th{
+    font-size: 14px;
+}
+table{
+    font-size: 12px;
+}
+  }
+  
+  @media (max-width: 576px) {
+
+.dropdown-item{
+        font-size: 10px;
+    }
+
+
+.latitude {
+    color: white;
+    font-size: 20px;
+    background-color: #0BADA6;
+    padding: 6px
+  }
+  h1{
+    padding: 6px;
+    font-size: 20px;
+  }
+  h2{
+    padding: 4px;
+    font-size: 15px;
+  }
+  h3{
+    font-size: 14px;
+  }
+
+  h6{
+    font-size: 8px;
+  }
+  p{
+    padding: 6px;
+    margin-top: 6px;
+    font-size: 12px; 
+}
+
+.th{
+    font-size: 12px;
+}
+table{
+    font-size: 10px;
+}
+
+  }
+  
